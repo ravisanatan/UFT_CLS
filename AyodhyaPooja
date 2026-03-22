@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sri Rama Pooja Booking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Arial;
+      background: #fff5e6;
+      text-align: center;
+      margin: 0;
+    }
+
+    header {
+      background: #ff9933;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .pooja {
+      background: white;
+      margin: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ddd;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+    }
+
+    .btn {
+      background: #ff6600;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .payment {
+      background: #fff;
+      padding: 15px;
+      margin: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  🛕 Sri Rama Navami Pooja Booking
+</header>
+
+<div class="container">
+
+  <h2>Available Poojas</h2>
+
+  <div class="pooja">
+    <h3>Gruha Pravesam</h3>
+    <p class="price">₹2500</p>
+  </div>
+
+  <div class="pooja">
+    <h3>Satyanarayana Pooja</h3>
+    <p class="price">₹1500</p>
+  </div>
+
+  <div class="pooja">
+    <h3>Lakshmi Pooja</h3>
+    <p class="price">₹1000</p>
+  </div>
+
+  <div class="pooja">
+    <h3>Seemantham</h3>
+    <p class="price">₹3000</p>
+  </div>
+
+  <div class="payment">
+    <h2>📲 Payment Details</h2>
+    <p>UPI ID: <b>yourname@upi</b></p>
+    <p>Please complete payment before filling the form</p>
+  </div>
+
+  <h2>📝 Book Your Pooja</h2>
+
+  <a href="PASTE_GOOGLE_FORM_LINK_HERE" target="_blank">
+    <button class="btn">Book Now</button>
+  </a>
+
+</div>
+
+</body>
+</html>
