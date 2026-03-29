@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hanuman Janmotsav Pooja Booking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Arial;
+      background: #fff5e6;
+      text-align: center;
+      margin: 0;
+    }
+
+    header {
+      background: #ff6600;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .pooja {
+      background: white;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ddd;
+    }
+
+    .price {
+      color: #cc0000;
+      font-weight: bold;
+      font-size: 32px;
+      margin-top: 10px;
+    }
+
+    .btn {
+      background: #ff6600;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .payment {
+      background: #fff;
+      padding: 15px;
+      margin: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  🛕 Hanuman Janmotsav Pooja Booking
+</header>
+
+<img src="HanumanGarhi.jpeg" width="200" alt="Hanuman Image">
+
+<div class="container">
+
+  <h2>Available Pooja</h2>
+
+  <div class="pooja">
+    <h3>Hanuman Janmotsav Special Pooja (Per Person)</h3>
+    <p><b>Location:</b> Ayodhya - Hanuman Garhi Mandir</p>
+
+    <p class="price">₹1116</p>
+
+    <div class="payment">
+      <h2>📲 Payment Details</h2>
+      <p>Scan QR code to pay</p>
+      <img src="upi-qr.jpeg" width="200" alt="UPI QR Code">
+      <p><b>Please complete payment before filling the form</b></p>
+    </div>
+
+    <h3>📝 Enter Pooja Details (Sankalpam)</h3>
+
+    <!-- Tally Form Link -->
+    <a href="YOUR_TALLY_LINK_HERE" target="_blank">
+      <button class="btn">Enter Details</button>
+    </a>
+
+  </div>
+
+</div>
+
+</body>
+</html>
